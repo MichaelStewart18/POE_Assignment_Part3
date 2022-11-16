@@ -17,6 +17,7 @@ public class SFXManager : MonoBehaviour
 
     void Awake()
     {
+        //Adds the sound effects
         sfx = this;
 
         soundEffect.Add("Cheering", sounds[0]);
@@ -25,6 +26,7 @@ public class SFXManager : MonoBehaviour
         soundEffect.Add("Win", sounds[3]);
     }
 
+    //Plays the sound effects
     public void PlaySound(string soundName)
     {
         //soundEffect[soundName].Play();

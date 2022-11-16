@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
 
 	void Update()
 	{
-
+		//starts the timer
 		if (playing == true)
 		{
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-
+    //Destroys the checkpoint
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "PlayerRaceCar")

@@ -25,6 +25,7 @@ public class RacerDrive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Allows the AI racers to move towards the next waypoint
         transform.position = Vector3.MoveTowards(transform.position, currentWapoint.position, moveSpeed * Time.deltaTime);
         if(Vector3.Distance(transform.position, currentWapoint.position) < dist)
         {

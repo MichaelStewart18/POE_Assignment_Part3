@@ -56,6 +56,8 @@ public class PlayerDrive : MonoBehaviour
         frontLeft.steerAngle = currentTurnAngle;
         frontRight.steerAngle = currentTurnAngle;*/
 
+
+        //Allows the movement of the cars
         if (Input.GetKey("w"))
         {
             transform.Translate(forward * speed * Time.deltaTime);

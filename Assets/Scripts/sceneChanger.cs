@@ -48,4 +48,15 @@ public class sceneChanger : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
     }
 
+    //Go back to race Selection From Beginner Race
+    public void EndBeginnerRace()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
+
+    //GO back to race selection from beginner race.
+    public void EndAdvancedRace()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+    }
 }
