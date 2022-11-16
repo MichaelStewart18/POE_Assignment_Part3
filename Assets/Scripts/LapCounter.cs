@@ -13,12 +13,14 @@ public class LapCounter : MonoBehaviour
     {
         int lapCount = 1;
 
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("StartLine"))
         {
             if (lapCount < 3)
             {
                 lapCounter.text = "Lap: " + lapCount;
                 lapCount++;
+
+                Debug.Log(lapCount);
                 //sfxManager.PlaySound("Win");
             } 
             else if(lapCount >= 3)

@@ -24,7 +24,7 @@ public class DialogManager : MonoBehaviour
 
     void Update()
     {
-        visibile = !visibile;
-        dialog.SetActive(visibile);
+        //visibile = !visibile;
+       // dialog.SetActive(visibile);
     }
 }
