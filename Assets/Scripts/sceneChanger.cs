@@ -15,12 +15,12 @@ public class sceneChanger : MonoBehaviour
     }
     public void goToBeginnerRace()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 
     public void goToAdvancedRace()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
     }
     public void goBackToMenu()
     {
@@ -31,5 +31,21 @@ public class sceneChanger : MonoBehaviour
         Application.Quit();
     }
 
+    public void loadRace()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    //Go back to race selection from beginner race dialogue
+    public void GoBackToSelectionFromBeginner()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+    }
+
+    //Go back to race selection from advanced race dialogue
+    public void GoBackToSelectionFromAdvanced()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+    }
 
 }
