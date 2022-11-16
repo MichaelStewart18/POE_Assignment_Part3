@@ -59,4 +59,10 @@ public class sceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
     }
+
+    //Go to race selection from checkpoint race
+    public void EndCheckpointRace()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
 }
