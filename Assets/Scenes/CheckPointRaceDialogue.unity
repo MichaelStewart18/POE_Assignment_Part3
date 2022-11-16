@@ -132,6 +132,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 714421325}
     m_Modifications:
     - target: {fileID: 4012240373440740055, guid: 946cbf7da4530ea4388139d6f5f80be5, type: 3}
+      propertyPath: m_text
+      value: 'Welcome to the Checkpoint Race
+
+        For this race you will need
+        to make it through all of the checkpoints before the allotted time runs out.
+
+        Every
+        time you make it through a checkpoint your score will increase.
+
+        The
+        race will end once the time runs out.
+
+
+        Good Luck Sailor.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012240373440740055, guid: 946cbf7da4530ea4388139d6f5f80be5, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
@@ -158,6 +176,14 @@ PrefabInstance:
     - target: {fileID: 4012240373696594234, guid: 946cbf7da4530ea4388139d6f5f80be5, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012240373696594235, guid: 946cbf7da4530ea4388139d6f5f80be5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.21528001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012240373696594235, guid: 946cbf7da4530ea4388139d6f5f80be5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 212
       objectReference: {fileID: 0}
     - target: {fileID: 4012240373880713563, guid: 946cbf7da4530ea4388139d6f5f80be5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
