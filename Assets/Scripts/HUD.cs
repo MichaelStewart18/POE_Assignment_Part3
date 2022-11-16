@@ -18,6 +18,8 @@ public class HUD : MonoBehaviour
             yield return new WaitForSeconds(1f);
 
             timeLeft--;
+
+            timeDisplay.text = "Time Left: " + timeLeft;
         }
 
         winLoss.text = "You Lose";
